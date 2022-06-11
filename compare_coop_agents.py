@@ -169,75 +169,7 @@ def monitorZ(main_ai, ob_list):
     return
 
 if __name__ == "__main__":
-    runAllControl((100, 124), 20, 26)
-    '''
-    for i in range(100, 125):
-         cleanSpecies(i, 5, 100, 1, dark=0)
-         '''
-    '''
-    name = "elite_" + str(12) + "_" + str(0)
-    try:
-        actor = load(ELITE_PATH + name)
-    except:
-        print("> Warning: Failed to load AI", name)
-    name = "elite_" + str(1) + "_" + str(0)
-    try:
-        ghost = load(ELITE_PATH + name)
-    except:
-        print("> Warning: Failed to load AI", name)
-    testCompat(actor, ghost, 5, v=True)
-    '''
-    #proximity_matrix = roundRobin(20, 26)
-    #np.savetxt("median.csv", proximity_matrix, delimiter=",", fmt="%d")
-    '''
-    for i in range(0, 27):
-        cleanSpecies(i, 5, 100, 1)
-        '''
-    #print(getCoopResult(0, 3, 3, 30))
-    #runCoop((0, 1), (1, 92), v=True)
-    #runCoop((2, 52), (0, 33), v=True)
-    #runCoop((1, 7), (2, 36), v=True)
-    #runCoop((1, 78), (2, 34), v=True)
-    #runCoop((2, 0), (1, 3), v=True)
-    #runCoop((2, 0), (1, 36), v=True)
-    #runCoop((2, 0), (1, 66), v=True)
-    #runCoop((2, 1), (1, 66), v=True)
-    ##runCoop((2, 8), (1, 0), v=True)
-    #runCoop((2, 8), (1, 1), v=True)
-    #runCoop((2, 8), (1, 22), v=True)
-    #runCoop((2, 8), (1, 29), v=True)
-    #runCoop((2, 8), (1, 47), v=True)
-    #runCoop((2, 9), (1, 66), v=True)
-    #runCoop((2, 9), (1, 85), v=True)
-    #runCoop((2, 11), (1, 22), v=True)
-    #runCoop((2, 11), (1, 50), v=True)
-    ##runCoop((2, 11), (1, 60), v=True)
-    #runCoop((2, 11), (1, 66), v=True)
-    #runCoop((2, 11), (1, 84), v=True)
-    #runCoop((2, 11), (1, 85), v=True)
-    #runCoop((2, 13), (1, 22), v=True)
-    #runCoop((2, 13), (1, 66), v=True)
-    #runCoop((2, 14), (1, 66), v=True)
-    #runCoop((2, 16), (1, 36), v=True)
-    #runCoop((2, 16), (1, 66), v=True)
-    ##runCoop((2, 16), (1, 85), v=True)
-    #runCoop((2, 17), (1, 66), v=True)  # interesting performance!
-    #runCoop((2, 18), (1, 43), v=True)
-    ##runCoop((2, 18), (1, 85), v=True)
-    #runCoop((2, 21), (1, 23), v=True)
-    #runCoop((2, 21), (1, 38), v=True)
-    #runCoop((2, 21), (1, 85), v=True)
-    #runCoop((2, 29), (1, 66), v=True)
-    ##runCoop((3, 36), (0, 33), v=True)     # bad but fun performance!
-    #runCoop((3, 63), (0, 71), v=True)
-    #runCoop((3, 75), (0, 33), v=True)
-    #runCoop((3, 75), (0, 71), v=True)
-    #runCoop((3, 75), (0, 72), v=True)
-    ##runCoop((3, 75), (0, 78), trials=100, v=True)   # bad but fun performance!
-    '''
-    runCoop((0, 1), (1,92), v=True)
-    printAI((0, 1))
-    printAI((1, 92))
-    printAI((1, 0))
-    '''
+    proximity_matrix = roundRobin(20, 26)
+    np.savetxt("median.csv", proximity_matrix, delimiter=",", fmt="%d")
+
     

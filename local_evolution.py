@@ -157,6 +157,8 @@ def ParamPrint(ai):
     print("")
 
 if __name__ == "__main__":
+    evolveDarkWolf(100, SAVE_DIR, v=True)
+    '''
     import os
     for i in range(110, 125):
          score = 0
@@ -168,4 +170,4 @@ if __name__ == "__main__":
                  agent = pops[j]
                  score += runGame(ai_0=agent, timeout=TIMEOUT)
              score /= 3
-    #evolveDarkWolf(100, SAVE_DIR, v=True)
+             '''
