@@ -23,5 +23,7 @@ I generated 21 agents. In a round robin test, out of 420 rounds, 20% are able to
 ## Try It
 
 get_coop_agents.py provides a streamlined way to produce families of RNNs for future testing in a cooperative task.
+
 compare_coop_agents.py provides functions to evaluate and clean families, select one from each family, and test them on how well they understand each other's vector representations of game information.
+
 single_agent_evolution.py can be used to produce a family of RNNs to play the unmodified version of Pong.
