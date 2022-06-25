@@ -1,4 +1,4 @@
-# Universal Representations among RNN Agents
+# Universal Vector Representations among RNN Agents
 ## About
 
 This is a project that explores the universality of vector representations among RNNs.
