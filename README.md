@@ -3,6 +3,7 @@
 
 This is a project that explores the universality of vector representations among RNNs.
 RNNs that are trained independently to play a game have a high chance of being able to understand each other's vector representations of game information, even without previous encounters.
+(This is a final project for LING 26520/COGS 20001 "Mind, Brain and Meaning".)
 
 ## The Experiment
 
